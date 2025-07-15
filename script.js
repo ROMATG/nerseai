@@ -14,7 +14,7 @@ async function generateImage() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": "Bearer r8_QmwIOngwNiEZMmB5eCJMEyVOaKw7YrM444sBx", // Твой API-ключ
+        "Authorization": "r8_QmwIOngwNiEZMmB5eCJMEyVOaKw7YrM444sBx", // Твой API-ключ
       },
       body: JSON.stringify({
         input: {
